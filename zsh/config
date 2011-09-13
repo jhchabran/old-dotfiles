@@ -5,7 +5,7 @@ else
 fi
 
 export EDITOR='vim'
-export PATH="$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/.rbenv/bin:$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 fpath=(~/.zsh/functions $fpath)
 
@@ -43,3 +43,5 @@ bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char 
+
+eval "$(rbenv init -)"
