@@ -15,3 +15,6 @@ alias g=git
 alias rst='touch tmp/restart.txt'
 
 alias bx='bundle exec'
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
