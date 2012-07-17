@@ -12,6 +12,9 @@ alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG
 
 alias g=git
 
+# 256 colors please
+alias tmux="tmux -2"
+
 alias rst='touch tmp/restart.txt'
 
 alias bx='bundle exec'
