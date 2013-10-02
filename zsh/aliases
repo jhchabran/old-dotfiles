@@ -18,6 +18,8 @@ alias tmux="tmux -2"
 alias rst='touch tmp/restart.txt'
 
 alias bx='bundle exec'
+alias xr='xvfb-run bundle exec'
+alias xspec='xvfb-run rspec'
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
