@@ -1,5 +1,6 @@
 # cd
 alias ..='cd ..'
+alias cr='cd-gitroot'
 
 # ls
 alias ls="ls -F"
